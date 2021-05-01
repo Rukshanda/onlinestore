@@ -1,0 +1,216 @@
+
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+  width: 50vw;
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+  
+ /*section-1-------*/
+.section-1{
+  background-color: rgb(128, 95, 6);
+display: flex;
+}
+.section-1 > div{
+   margin-top: 25px;
+   padding: 10px;
+   font-size: 16px;
+   text-transform: uppercase;
+}
+.section-1 > a{
+  margin-top: 25px;
+  padding: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/*--------heading-6---*/
+.headign-6{
+   margin-top: -10px;
+   margin-left: -10px;
+   font-size: 20px;
+   background-image: linear-gradient(to right, #e0d753, #b67109);
+   -webkit-background-clip: text;
+   color: transparent;
+   text-transform: uppercase;
+   font-family: 'Pacifico', cursive;
+}
+@media screen and (max-width:35.625em) {
+  .headign-6{
+      margin-top: -1px;
+      font-size: 70%;
+  }    
+}
+@media screen and (max-width:31.25em) {
+  .headign-6{
+      font-size: 60%;
+  }    
+}
+/*------img-shop---*/
+.img-shop{
+  margin-top: -14px;
+  margin-left: 20px;
+}
+/*----nav-bar---*/
+.login{   
+color:  rgb(80, 54, 6);
+/*
+font-family: 'Pacifico', cursive;
+font-family: 'Saira Condensed', sans-serif; */
+font-family: monospace;
+}
+.registration{
+color: rgb(80, 54, 6);
+font-family:  monospace;
+}
+.contact{
+  color: rgb(80, 54, 6);
+  font-family: monospace;
+}
+.products{
+  color: rgb(80, 54, 6);
+  font-family: monospace;
+}
+/*-----nav-bar_hover--*/
+.products:hover{
+  color: rgb(236, 194, 115);
+}
+.login:hover{
+   color: rgb(236, 194, 115);
+}
+.registration:hover{
+   color: rgb(236, 194, 115);
+}
+.contact:hover{
+   color: rgb(236, 194, 115);
+}
+.special-offers:hover{
+   color: rgb(236, 194, 115);
+}
+  h2{
+    background-image: linear-gradient(to right, #e0d703, #b67109);
+      -webkit-background-clip: text;
+      color: transparent;
+  
+      text-align: center;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 50px;
+      text-decoration: underline;
+  }
+
+  
+
+    /*------footer----*/
+    .footer{
+      background-color: #a37f48;
+      color: rgb(37, 25, 1);
+      font-size: 20px;
+      display: flex;
+      font-family: 'Open Sans Condensed', sans-serif;
+   
+     }
+     @media screen and (max-width:53.125em) {
+        .footer{
+            font-size: 50%;
+        } 
+     }
+     /*----footer-1--*/
+     .footer-1{
+       margin-left:8vw;
+       margin-right:8vw;
+     }
+ 
+   
+     .footer-heading-3
+     {
+         text-transform: uppercase;
+     }
+     /*-----footer-2-----*/
+     .footer-2{
+         margin-left:8vw;
+       margin-right:8vw;
+        }
+ 
+ .footer-heading-4{
+  text-transform: uppercase;
+ }
+  
+ 
+ /*----footer-4---*/
+  
+      
+ .footer-4{
+     margin-left:8vw;
+     margin-right:8vw;
+ }
+ .footer-heading-6{
+    text-transform: uppercase;
+ }
+ /*----hover---*/
+ .footer-heading-3:hover{
+     text-decoration: solid rgb(73, 60, 4) underline;
+ }
+ .footer-heading-4:hover{
+     text-decoration: solid rgb(73, 60, 4) underline;
+ }
+ .footer-heading-6:hover{
+     text-decoration: solid rgb(73, 60, 4) underline;
+ }
+ /*---------icon----*/
+  .footer-icon{
+      color: #1b1101;
+     
+  }
+  

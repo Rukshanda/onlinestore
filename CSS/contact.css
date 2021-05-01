@@ -1,0 +1,191 @@
+body{
+    background-color: rgba(243, 242, 234, 0.993);
+}
+ /*section-1-------*/
+ .section-1{
+    background-color: rgb(128, 95, 6);
+  display: flex;
+}
+ .section-1 > div{
+     margin-top: 25px;
+     padding: 10px;
+     font-size: 16px;
+     text-transform: uppercase;
+ }
+ .section-1 > a{
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/*--------heading-6---*/
+ .headign-6{
+     margin-top: -10px;
+     margin-left: -10px;
+     font-size: 20px;
+     background-image: linear-gradient(to right, #e0d753, #b67109);
+     -webkit-background-clip: text;
+     color: transparent;
+     text-transform: uppercase;
+     font-family: 'Pacifico', cursive;
+ }
+ @media screen and (max-width:35.625em) {
+    .headign-6{
+        margin-top: -1px;
+        font-size: 70%;
+    }    
+ }
+ @media screen and (max-width:31.25em) {
+    .headign-6{
+        font-size: 60%;
+    }    
+ }
+ /*------img-shop---*/
+ .img-shop{
+    margin-top: -14px;
+    margin-left: 20px;
+ }
+/*----nav-bar---*/
+.login{   
+  color:  rgb(80, 54, 6);
+  /*
+  font-family: 'Pacifico', cursive;
+font-family: 'Saira Condensed', sans-serif; */
+ font-family: monospace;
+}
+.registration{
+  color: rgb(80, 54, 6);
+  font-family:  monospace;
+}
+.contact{
+    color: rgb(80, 54, 6);
+    font-family: monospace;
+}
+.products{
+    color: rgb(80, 54, 6);
+    font-family: monospace;
+}
+/*-----nav-bar_hover--*/
+ .products:hover{
+    color: rgb(236, 194, 115);
+ }
+ .login:hover{
+     color: rgb(236, 194, 115);
+ }
+ .registration:hover{
+     color: rgb(236, 194, 115);
+ }
+ .contact:hover{
+     color: rgb(236, 194, 115);
+ }
+ .special-offers:hover{
+     color: rgb(236, 194, 115);
+ }
+ 
+ .heading-2{
+    background-image: linear-gradient(to right, #e0d703, #b67109);
+    -webkit-background-clip: text;
+    color: transparent;
+
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    text-decoration: underline;
+ }
+
+    /*-------------contact-content---*/  
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: #edf0f5;
+        padding: 20px;
+        width: 50vw;
+        margin-left: 12vw;
+        margin-right: 12vw;
+      }
+    /*------footer----*/
+    .footer{
+        background-color: #a37f48;
+        color: rgb(37, 25, 1);
+        font-size: 20px;
+        display: flex;
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin-top: 6vw;
+     
+       }
+       @media screen and (max-width:53.125em) {
+          .footer{
+              font-size: 50%;
+          } 
+       }
+       /*----footer-1--*/
+       .footer-1{
+         margin-left:8vw;
+         margin-right:8vw;
+       }
+   
+     
+       .footer-heading-3
+       {
+           text-transform: uppercase;
+       }
+       /*-----footer-2-----*/
+       .footer-2{
+           margin-left:8vw;
+         margin-right:8vw;
+          }
+   
+   .footer-heading-4{
+    text-transform: uppercase;
+   }
+    
+   
+   /*----footer-4---*/
+    
+        
+   .footer-4{
+       margin-left:8vw;
+       margin-right:8vw;
+   }
+   .footer-heading-6{
+      text-transform: uppercase;
+   }
+   /*----hover---*/
+   .footer-heading-3:hover{
+       text-decoration: solid rgb(73, 60, 4) underline;
+   }
+   .footer-heading-4:hover{
+       text-decoration: solid rgb(73, 60, 4) underline;
+   }
+   .footer-heading-6:hover{
+       text-decoration: solid rgb(73, 60, 4) underline;
+   }
+   /*---------icon----*/
+    .footer-icon{
+        color: #1b1101;
+       
+    }
